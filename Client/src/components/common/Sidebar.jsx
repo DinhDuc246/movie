@@ -23,6 +23,7 @@ const Sidebar = ({ open, toggleSidebar }) => {
   const dispatch = useDispatch();
 
   const { user } = useSelector((state) => state.user);
+
   const { appState } = useSelector((state) => state.appState);
   const { themeMode } = useSelector((state) => state.themeMode);
 

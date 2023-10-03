@@ -14,6 +14,8 @@ import { setUser } from "../../redux/features/userSlice";
 
 const UserMenu = () => {
   const { user } = useSelector((state) => state.user);
+  const abc = useSelector((state) => state);
+  console.log("user,user", abc);
 
   const dispatch = useDispatch();
 
